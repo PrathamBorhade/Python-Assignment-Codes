@@ -1,4 +1,4 @@
-class Demo:
+class circle:
     PI = 3.14
 
     def __init__(self):
@@ -22,8 +22,8 @@ class Demo:
         print("Area of circle is : ",self.Area)
         print("Circumference of circle is : ",self.Circumference)
 
-obj1 = Demo()
-obj2 = Demo()
+obj1 = circle()
+obj2 = circle()
 
 obj1.Accept()
 obj2.Accept()
@@ -35,4 +35,5 @@ obj1.CalculateCircumference()
 obj2.CalculateCircumference()
 
 obj1.Display()
+
 obj2.Display()
