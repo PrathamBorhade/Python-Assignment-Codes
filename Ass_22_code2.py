@@ -35,5 +35,4 @@ obj1.CalculateCircumference()
 obj2.CalculateCircumference()
 
 obj1.Display()
-
 obj2.Display()

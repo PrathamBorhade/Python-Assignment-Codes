@@ -1,4 +1,4 @@
-class Arithmatic:
+class Demo:
 
     def __init__(self):
         self.Value1 = 0
@@ -31,8 +31,8 @@ class Arithmatic:
             self.Div == self.Value1/self.Value2
             print("Division is : ",self.Div)
 
-obj1 = Arithmatic()
-obj2 = Arithmatic()
+obj1 = Demo()
+obj2 = Demo()
 
 obj1.Accept()
 obj1.Addition()
@@ -46,5 +46,4 @@ obj2.Accept()
 obj2.Addition()
 obj2.Substraction()
 obj2.Multiplication()
-
 obj2.Division()
